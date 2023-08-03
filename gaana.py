@@ -23,11 +23,12 @@ def scrape():
     #this playlist se sbse jyada sikha, error handling + artist name ke saath search
     #data = requests.get(f"https://gaana.com/playlist/gaana-dj-best-of-sonu-nigam")
     #data = requests.get(f"https://gaana.com/playlist/gaana-dj-with-love-hardy-sandhu")
+    #https://gaana.com/artist/yo-yo-honey-singh
 
     #personal fav
     #data = requests.get(f"https://gaana.com/playlist/gaana-dj-kk-heartbreak-hits")
     
-    #most iconic playlist     https://gaana.com/artist/yo-yo-honey-singh
+    #most iconic playlist     
     #data = requests.get(f"https://gaana.com/playlist/gaana-dj-best-of-kishore-kumar")
 
     data = requests.get(playlist_link)
