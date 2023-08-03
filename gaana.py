@@ -1,7 +1,7 @@
 # for installing given modules, run below commands in terminal
 # pip install pytube
 # pip install BeautifulSoup
-# pip isntall urllib
+# pip install urllib
 
 # while running the below command, program can throw you an error with code 410 : gone
 # so to tackle this, use the below listed commands in order
