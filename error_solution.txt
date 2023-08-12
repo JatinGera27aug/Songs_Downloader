@@ -1,0 +1,12 @@
+if you got troubled by an error like the following:
+
+File "C:\Users\logan\AppData\Local\Programs\Python\Python38\lib\site-packages\pytube\cipher.py", line 33, in __init__
+    raise RegexMatchError(
+pytube.exceptions.RegexMatchError: __init__: could not find match for ^\w+\W
+
+------------------SOLUTION---------------
+go to above file, open it and replace the line 30 : var_regex = re.compile(r"^\w+\W")
+with the line : var_regex = re.compile(r"^\$*\w+\W")
+
+~ above solution credit : stackoverflow user RIDIX
+link to page : https://stackoverflow.com/questions/70776558/pytube-exceptions-regexmatcherror-init-could-not-find-match-for-w-w
